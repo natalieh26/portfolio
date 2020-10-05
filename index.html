@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Flexbox styling</title>
+
+    <!-- FONT AWESOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Your styles should be called here -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&family=Raleway&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,800&display=swap" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <section class="top">
+        <h1>Natalie Hernandez</h1>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap" rel="styles">
+        <h2>Student, Reporter, Big dreamer</h2>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap" rel="styles">
+      </section>
+
+      <!-- <section class="photo"> -->
+
+      <figure>
+        <img class="natalie photo_img" src="images/natalie photo.jpg">
+        <figcaption> "My happy place is the beach," says Hernandez.<span class="credit"> Credit: Natalie Hernandez </span></figcaption>
+      </figure>
+
+      <section class="text">
+        <p>Natalie Hernandez is a native New Yorker and recent grduate of Pace University. At Pace, Natalie recieved a degree in digital journalism and minor in politics. Hernandez has previously interned at CBS in their Broadcast Publicity
+          Department and CNBC in their Long Form Programming Unit. At CNBC Hernandez researched, shot content, and found interview subjects for CNBC Documentatries. You can find her name in the credits of the documentaties, "DNA TESTING: The Promise
+          and Perils," "Fugitive CEO: The Carlos Ghosn Story," and "Supermarket Shock: Crisis in America's Food Supply."
+        <p> Currently, Hernandez is a graduate student at the Craig Newmark Graduate School of Journalism. She hopes to become a broadcast journalist with a memorable presence.</p>
+      </section>
+
+      <h3 class="flex-hed"> <strong>About Natalie </strong> </h3> <!-- broke the subhed out of text to correct alignment based on mock -->
+
+      <section class="flex">
+        <!-- flex box refers to the box that contains the "flexed" content -->
+
+        <section class="img_holder">
+          <!-- each img_holder is flexed content -->
+          <figure class="sub_img">
+            <img class="small" src="images/Apollo.jpg"> <!-- You should crop your images to be the same size before using them, otherwise, even with flex box, they come out uneven -->
+            <figcaption class="sub_cap"> Natalie Hernandez on the Apollo Theater Stage. <span class="credit">Credit: Natalie Hernandez</span></figcaption>
+          </figure>
+          <section class="sub_text">
+            <p> Hernandez is a part of the Young Producers Club at the Apollo Theater. There, she works on aiding in the production of arts and education programs for teens at the Apollo. He has served as a host and correspondent for various Apollo
+              Theater events.
+            </p>
+          </section>
+        </section>
+
+
+        <section class="img_holder">
+          <figure class="sub_img">
+            <img class="main_img" src="images/Grad1.jpg">
+            <figcaption class="sub_cap">Hernandez at her virtual 2020 Pace University graduation. <span class="credit">Credit: Natalie Hernandez</span></figcaption>
+          </figure>
+          <section class="sub_text">
+            <p>Hernandez is a former peer educator and confidential resource for Pace F.I.R.E - Fighting Ignorance and Rape through Education.At Pace University she served as the Chair of Social Unity and Justice on student government and president
+              of a womens empowerment group. In 2019, Hernandez was awarded with the Jefferson Award, a public service award that recognizes individuals for their public and volunteer service, and dedication to improving the quality of life in their
+              communities.</p>
+          </section>
+        </section>
+
+
+        <section class="img_holder">
+          <figure class="sub_img">
+            <img class="main_img" src="images/girls.jpg">
+            <figcaption class="sub_cap">Hernandez conducting an interview on the set of MNN's Girls Empowered. <span class="credit">Credit: Natalie Hernandez</span></figcaption>
+          </figure>
+          <section class="sub_text">
+            <p>Hernandez is a former host and wither for Manhattan Neighorhood Network's Girls Empowered. While at Girls Empowered Hernandez helped to develop a show that aimed to create intersectional conversations about experiences affecting women
+              of color and marginalized groups. </p>
+          </section>
+        </section>
+
+      </section>
+      <!-- this ^ closes the flex box section -->
+
+    </div>
+
+    <!-- When you get to using javascript, you'll want to link to it at the bottom of the document, still inside the body. That's for later. -->
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Your javascript should be called here -->
+
+  </body>
+
+</html>
